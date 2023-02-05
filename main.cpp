@@ -187,8 +187,8 @@ void loop() {
     if (reading == LOW) {
       createClip();
     }
-    delay(50);
     buttonState = reading;
+    delay(45000);
   }
 
   server.handleClient();
